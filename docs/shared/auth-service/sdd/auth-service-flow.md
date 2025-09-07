@@ -100,5 +100,7 @@ graph LR
 ---
 
 :::note
+
 **CDC (Change Data Capture)** adalah mekanisme yang memantau perubahan data pada database dan mengirimkannya ke sistem pesan (Kafka) untuk diproses lebih lanjut.
+
 :::

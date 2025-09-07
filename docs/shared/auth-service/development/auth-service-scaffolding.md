@@ -74,4 +74,5 @@ auth-service/
 1. Gunakan .env.example sebagai template konfigurasi lokal.
 
 2. Pastikan setiap perubahan struktur disosialisasikan ke tim untuk menjaga konsistensi.
-   :::
+
+:::

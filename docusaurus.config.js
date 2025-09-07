@@ -26,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: undefined,
-          // Untuk melihat Last Update/Pembaruan terakhir
+          // Untuk melihat Last Update
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -38,7 +38,6 @@ const config = {
   ],
 
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Beranda",
       logo: {

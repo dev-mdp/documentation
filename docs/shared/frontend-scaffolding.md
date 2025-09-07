@@ -98,4 +98,5 @@ my-react-app/
 2. Fitur baru sebaiknya dibuat di dalam folder features/ dengan struktur serupa auth/.
 
 3. Simpan semua variabel environment di .env dan gunakan .env.example sebagai template untuk tim.
+
    :::

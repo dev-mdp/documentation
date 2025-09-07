@@ -42,6 +42,8 @@ Dokumentasi ini ditujukan untuk:
 
 ---
 
-**_Catatan:_**
+:::note
 
 Dokumentasi ini akan terus diperbarui seiring perkembangan sistem dan penambahan fitur baru.
+
+:::

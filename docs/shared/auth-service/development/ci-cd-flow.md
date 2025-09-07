@@ -97,7 +97,6 @@ kind: ServiceAccount
 metadata:
   name: jenkins
   namespace: default
----
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:

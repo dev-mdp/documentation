@@ -294,7 +294,7 @@ scrape_configs:
 
 4. Jalan migrasi bertahap jika suatu saat ingin pindah database ke K8s.
 
-**Untuk Implemetasi**:
+**Untuk Implemetasi:**
 
 ```bash
 # Deploy Redis cluster di K8s
