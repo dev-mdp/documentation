@@ -6,19 +6,25 @@ import Link from "@docusaurus/Link";
 // Daftar dokumentasi
 const docs = [
   {
-    title: "📘 Arsitektur Auth-Service",
+    title: "📃 Arsitektur Auth-Service",
     description: "Mendokumentasikan Arsitektur Auth-Service.",
     link: "/docs/shared/auth-service/sdd/auth-service-architecture",
   },
   {
-    title: "📘Alur Auth-Service",
+    title: "📃Alur Auth-Service",
     description: "Mendokumentasikan Alur Auth-Service.",
     link: "/docs/shared/auth-service/sdd/auth-service-flow",
   },
   {
-    title: "📘 Alur Registrasi User",
+    title: "📃 Alur Registrasi User",
     description: "Mendokumentasikan Alur Registrasi User dengan OTP.",
     link: "/docs/events-apps/sdd/user-register-otp",
+  },
+  {
+    title: "📃 Alur CI/CD GitHub, Jenkins, dan Kubernetes",
+    description:
+      "Mendokumentasikan Alur CI/CD GitHub, Jenkins, dan Kubernetes.",
+    link: "/docs/shared/auth-service/development/ci-cd-flow",
   },
 ];
 
