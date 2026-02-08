@@ -1,0 +1,89 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ff6900;
+  --ifm-color-primary-dark: #e85e00;
+  --ifm-color-primary-darker: #cc5300;
+  --ifm-color-primary-darkest: #a64200;
+  --ifm-color-primary-light: #ff812a;
+  --ifm-color-primary-lighter: #ff944d;
+  --ifm-color-primary-lightest: #ffb380;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff6900;
+  --ifm-color-primary-dark: #e85e00;
+  --ifm-color-primary-darker: #cc5300;
+  --ifm-color-primary-darkest: #a64200;
+  --ifm-color-primary-light: #ff812a;
+  --ifm-color-primary-lighter: #ff944d;
+  --ifm-color-primary-lightest: #ffb380;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* Hero section */
+.hero__title {
+  color: #ffffff
+}
+
+.hero__subtitle {
+  color: #ffffff
+}
+
+[data-theme='dark'] .hero__title {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .hero__subtitle {
+  color: #cccccc;
+}
+
+/* Button di hero */
+.button {
+  transition: all 0.2s ease;
+}
+
+[data-theme='dark'] .button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+[data-theme='dark'] .button:hover {
+  background-color: #ff6900;
+  color: #ffffff;
+}
+
+/* Navbar Logo Responsive */
+.navbar__logo img {
+  height: clamp(28px, 4vw, 40px); /* Min 28px, max 40px, dinamis tergantung lebar layar */
+  width: auto;
+  transition: height 0.2s ease-in-out;
+}
+
+.navbar__items { /* logo otomatis mengecil ketika navbar tambah panjang */
+  flex-wrap: nowrap; /* Agar tidak turun */
+}
+
+@media (max-width: 996px) {
+  .navbar__logo img {
+    height: clamp(24px, 5vw, 32px); /* Mobile lebih kecil */
+  }
+}
+
+/* 📚 Quick Read section title */
+.quick-read-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}

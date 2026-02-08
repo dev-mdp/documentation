@@ -1,0 +1,41 @@
+.features {
+  padding: 2rem 0;
+}
+
+.docCard {
+  display: block;
+  height: 100%;
+  border-radius: 1rem;
+  transition: all 0.25s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-decoration: none;
+}
+
+.docCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: var(--ifm-color-primary);
+}
+
+.docCard h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+}
+
+.docCard p {
+  font-size: 0.95rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+/* Dark mode */
+[data-theme='dark'] .docCard {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .docCard:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  border-color: var(--ifm-color-primary);
+}
